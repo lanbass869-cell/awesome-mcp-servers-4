@@ -1,0 +1,28 @@
+{
+  "$schema": "../../schemas/server-metadata.schema.json",
+  "id": "github-kikiyop1101-boim-mcp-8a455a66",
+  "source": {
+    "issue": 3278,
+    "projectUrl": "https://github.com/kikiyop1101/boim-mcp"
+  },
+  "links": {
+    "endpoint": "https://boim.io/api/mcp"
+  },
+  "transport": [
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "none",
+    "notes": []
+  },
+  "clients": [
+    "claude.ai",
+    "Claude Desktop",
+    "Claude Code",
+    "ChatGPT (developer mode)",
+    "Cursor",
+    "VS Code (GitHub Copilot agent mode)",
+    "any client via mcp-remote"
+  ],
+  "license": "Proprietary hosted service; the GitHub repository (documentation and client configs only) is MIT"
+}
