@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/server-metadata.schema.json",
+  "id": "github-codetomex-tvojelajky-agent-docs-52b9a12c",
+  "source": {
+    "issue": 3273,
+    "projectUrl": "https://github.com/codetomex/tvojelajky-agent-docs"
+  },
+  "links": {
+    "endpoint": "https://tvojelajky.cz/mcp"
+  },
+  "transport": [
+    "streamable-http"
+  ],
+  "auth": {
+    "type": "oauth",
+    "notes": [
+      "oauth Public discovery, catalog and quote tools are available without a wallet login. Private order reads require an order token or an authorized connection. Wallet reads/purchases require OAuth and the relevant approved scopes;..."
+    ]
+  },
+  "clients": [
+    "Claude Code",
+    "Codex"
+  ],
+  "license": "Proprietary hosted implementation; public documentation only"
+}
